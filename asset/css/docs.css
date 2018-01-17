@@ -141,7 +141,7 @@ padding: 8px 0px; margin: 0;
   }
 #site-categories .posts-list li a:hover{text-decoration: underline;}
 .page-bottom{ margin:0px 0px; margin-bottom: 80px;}
-.page-bottom .copyright{ text-align: left;  margin: 0 0.93rem;  padding-top: 60px; font-size: 12px; color: #999;}
+.page-bottom .copyright{ text-align: center;  margin: 0 0.93rem;  padding-top: 60px; font-size: 12px; color: #999;}
 .page-bottom .copyright a{color: #999;text-decoration: underline ;}
 
 
@@ -783,3 +783,19 @@ font-family: "PT Sans", "SF UI Display", ".PingFang SC","PingFang SC", "Neue Haa
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5); }
   .markdown-body ul.clearing-thumbs a.radius {
     border-radius: 3px; }
+
+.markdown-body .article-content p {
+  text-indent: 2em;
+}
+
+.markdown-body .article p {
+  text-indent: 2em;
+}
+
+.markdown-body .article-content h1 {
+  text-align: center;
+}
+
+.markdown-body .article h1 {
+  text-align: center;
+}
